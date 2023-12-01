@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: GIT-DEMO
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/sakila
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
